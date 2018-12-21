@@ -40,6 +40,7 @@
                 android:background="@drawable/btn_primary"
                 android:text="@string/main_search_action"
                 android:textAllCaps="false"
+                android:minHeight="40dp"
                 android:textColor="@color/white"
                 android:textSize="13sp" />
 

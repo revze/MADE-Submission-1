@@ -3,8 +3,6 @@ package io.revze.searchmovie.view.detail;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.chip.Chip;
-import android.support.design.chip.ChipGroup;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
@@ -65,7 +63,7 @@ public class MovieDetailActivity extends AppCompatActivity implements MovieDetai
         tvReleaseDate = findViewById(R.id.tv_release_date);
         tvOverview = findViewById(R.id.tv_overview);
         rvGenre = findViewById(R.id.rv_genre);
-        adapter = new GenreAdapter(context);
+        adapter = new GenreAdapter();
         adapter.setGenres(genres);
         rvGenre.setLayoutManager(new GridLayoutManager(context, 5));
         rvGenre.setAdapter(adapter);

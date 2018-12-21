@@ -12,9 +12,7 @@ import io.revze.searchmovie.R;
 import io.revze.searchmovie.api.ApiClient;
 import io.revze.searchmovie.api.ApiService;
 import io.revze.searchmovie.model.MovieDetailResponse;
-import io.revze.searchmovie.model.MovieResponse;
 import io.revze.searchmovie.view.base.Presenter;
-import io.revze.searchmovie.view.main.MainView;
 
 public class MovieDetailPresenter implements Presenter<MovieDetailView> {
     private MovieDetailView view;

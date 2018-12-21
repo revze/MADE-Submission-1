@@ -1,8 +1,5 @@
 package io.revze.searchmovie.view.detail;
 
-import java.util.List;
-
-import io.revze.searchmovie.model.Movie;
 import io.revze.searchmovie.model.MovieDetailResponse;
 import io.revze.searchmovie.view.base.View;
 

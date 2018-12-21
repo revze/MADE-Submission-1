@@ -14,8 +14,6 @@ import io.revze.searchmovie.R;
 import io.revze.searchmovie.model.Genre;
 
 public class GenreAdapter extends RecyclerView.Adapter<GenreAdapter.GenreViewHolder> {
-    private Context context;
-
     private List<Genre> genres = new ArrayList<>();
 
     public List<Genre> getGenres() {
@@ -26,9 +24,7 @@ public class GenreAdapter extends RecyclerView.Adapter<GenreAdapter.GenreViewHol
         this.genres = genres;
     }
 
-    public GenreAdapter(Context context) {
-        this.context = context;
-    }
+    public GenreAdapter() {}
 
     @Override
     public GenreViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {

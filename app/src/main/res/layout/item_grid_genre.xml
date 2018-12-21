@@ -7,8 +7,6 @@
     android:background="@drawable/bg_genre_chip"
     android:padding="8dp"
     android:text=""
-    android:maxLines="1"
-    android:ellipsize="end"
     android:textAlignment="center"
     android:textColor="@color/white"
     android:textSize="11sp" />
