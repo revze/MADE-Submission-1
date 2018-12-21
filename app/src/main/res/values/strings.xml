@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Search Movie</string>
+    <string name="main_edt_text_search_hint">Movie Title</string>
+    <string name="main_search_action">Search</string>
+    <string name="short_dummy_text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes...</string>
+    <string name="api_key">20505ab6ccf0f63c92da6cac933fd3f2</string>
+    <string name="api_language">en-US</string>
+    <string name="network_error">Koneksi terputus</string>
+    <string name="server_error">Server mengalami masalah</string>
+    <string name="movie_detail_rating">Rating</string>
+    <string name="movie_detail_duration">Duration</string>
+    <string name="movie_detail_language">Language</string>
+    <string name="movie_detail_release_date">Release</string>
+    <string name="movie_detail_overview">Overview</string>
+    <string name="movie_detail_genres">Genres</string>
+</resources>
